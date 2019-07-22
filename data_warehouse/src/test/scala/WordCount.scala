@@ -16,7 +16,7 @@ object WordCount {
 
 		//转为rdd在进行reduceByKey
 		dataSet.rdd.flatMap(_.split(",")).map((_, 1)).reduceByKey(_ + _).sortByKey().take(10).foreach(println)
-
+		println("nihao")
 		spark.close()
 	}
 }
