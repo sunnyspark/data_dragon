@@ -14,6 +14,8 @@ object WordCount {
 			  |select word,count(1) from word_view group by word order by word
 			""".stripMargin).show(10, false)
 
+
+
 		//转为rdd在进行reduceByKey
 		dataSet.rdd.flatMap(_.split(",")).map((_, 1)).reduceByKey(_ + _).sortByKey().take(10).foreach(println)
 
