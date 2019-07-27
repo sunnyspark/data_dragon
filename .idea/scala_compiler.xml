@@ -31,5 +31,11 @@
         <parameter value="F:\WorkPlace\data_dragon\recommend_sys\target/.scala_dependencies" />
       </parameters>
     </profile>
+    <profile name="Maven 6" modules="data_dic">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="F:\WorkPlace\data_dragon\data_dic\target/.scala_dependencies" />
+      </parameters>
+    </profile>
   </component>
 </project>

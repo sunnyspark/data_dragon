@@ -1,0 +1,16 @@
+http://www.51doit.com,首页
+http://www.51doit.com/spark,spark专栏
+http://www.51doit.com/hadoop,hadoop专栏
+http://www.51doit.com/flink,flink专栏
+http://www.51doit.com/kafka,kafka专栏
+http://www.51doit.com/hbase,hbase专栏
+http://www.51doit.com/hive,hive专栏
+http://www.51doit.com/hive/sku,hive课程详情页
+http://www.51doit.com/spark/sku,spark课程详情页
+http://www.51doit.com/hadoop/sku,hadoop课程详情页
+http://www.51doit.com/flink/sku,flink课程详情页
+http://www.51doit.com/kafka/sku,kafka课程详情页
+http://www.51doit.com/hbase/sku,hbase课程详情页
+http://www.51doit.com/hive/sku,hive课程详情页
+https://www.51doit.com/duanzi,娱乐专栏
+https://www.51doit.com/class,线上课堂
