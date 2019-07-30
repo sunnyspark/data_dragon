@@ -2,86 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fbb896-881c-45a8-b8cc-9fb80112211e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_common/src/main/scala/sparkutils/LoggerUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_common/src/main/scala/sparkutils/SparkUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/area_orgin/省市区GPS坐标数据.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/biz_orgin/商圈数据.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/logs/2019-06-15/15.doit.mall.access.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/logs/2019-06-16/16.doit.mall.access.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/logs/2019-06-17/doit.mall.access.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/logs/2019-06-18/doit.mall.access.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/logs/2019-06-19/19.doit.mall.access.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/sql/schema.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/stopwords/stopwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/stopwords/stwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/GaoDeDic.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/LocalDic.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/biz.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/data_process/LogBean.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/data_process/LogProcess.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/datapreprocess/LogBean.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/datapreprocess/LogPre.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/dic/BizParse.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/dic/LocationParse.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/dwd/DwDTrafficBean.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/dwd/UrlCT.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/external/RequestDic.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_dragon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/CYang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/data/appdata/active.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/data/appdata/app.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/active_day/ActiveDays.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/active_day/ActiveDaysU.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/app_update/AppUpdate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$3$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$3$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$3$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/AppUpdate$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/AppUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$anonfun$main$1$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$anonfun$main$1$$anonfun$apply$1$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/biz$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/biz$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/biz$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/biz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogBean$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$1$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$6$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$6$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$3$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$3$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator11$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogBean$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$1$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$6$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$6$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$9$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$9$$anonfun$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator11$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/BizParse$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/BizParse$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/BizParse$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/BizParse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/LocationParse$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/LocationParse$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/LocationParse$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/LocationParse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/DwDTrafficBean$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/DwDTrafficBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$2$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$getUrlCt$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$getUrlCt$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/external/RequestDic$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/external/RequestDic$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/external/RequestDic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$typecreator4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_common/target/classes/META-INF/data_common.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_warehouse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data_warehouse/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/recommend_sys/target/" />
+    <ignored path="$PROJECT_DIR$/data_common/target/" />
+    <ignored path="$PROJECT_DIR$/user_profile/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/data_warehouse/target/" />
-    <ignored path="$PROJECT_DIR$/data_common/target/" />
-    <ignored path="$PROJECT_DIR$/recommend_sys/target/" />
-    <ignored path="$PROJECT_DIR$/user_profile/target/" />
     <ignored path="$PROJECT_DIR$/data_service/target/" />
-    <ignored path="$PROJECT_DIR$/data_dic/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/biz.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/dwd/DwDTrafficBean.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/dwd/UrlCT.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-              <folding>
-                <element signature="e#13#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,44 +166,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/controller.java" />
-        <option value="$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/controller/Person.java" />
-        <option value="$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/service/AddServiceImpl.java" />
-        <option value="$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/service/AddService.java" />
-        <option value="$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/controller/AddController.java" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/test/scala/WordCount.scala" />
-        <option value="$PROJECT_DIR$/data_dic/pom.xml" />
-        <option value="$PROJECT_DIR$/data_dic/src/main/scala/Location.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/data_common/src/main/scala/SparkSessionUtil.scala" />
-        <option value="$PROJECT_DIR$/untitled.sc" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/BizParse.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/LocationParse.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/datapreprocess/LogBean.scala" />
-        <option value="$PROJECT_DIR$/data_common/src/main/scala/sparkutils/MyLogger.scala" />
-        <option value="$PROJECT_DIR$/data_common/src/main/scala/sparkutils/LoggerUtil.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/data_process.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/data_process/LogBean.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/data/stopwords/stwords.txt" />
-        <option value="$PROJECT_DIR$/data_warehouse/pom.xml" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/external/RequestDic.scala" />
-        <option value="$PROJECT_DIR$/data_common/src/main/scala/sparkutils/SparkSessionUtil.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/biz.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/LocalDic.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/data_process/LogProcess.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/datapreprocess/LogPre.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/dic/BizParse.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/dic/LocationParse.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/data/tmp/no_match_data/part-00000-8c3d4fb1-7baf-4e03-8b51-00b9feaf954b-c000.txt" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/GaoDeDic.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/Test.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/dwd/DwDTrafficBean.scala" />
-        <option value="$PROJECT_DIR$/data_warehouse/data/sql/schema.txt" />
-        <option value="$PROJECT_DIR$/data_warehouse/src/main/scala/dwd/UrlCT.scala" />
-      </list>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="e2200d66-b900-49c6-803f-7f1c068321ba" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\WorkPlace\data_dragon\.idea" />
+      </set>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -145,47 +186,27 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="data_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="data_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="data_warehouse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="data_warehouse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="data_warehouse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="520" />
-    <option name="y" value="16" />
-    <option name="width" value="1430" />
-    <option name="height" value="990" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="91" />
+    <option name="y" value="21" />
+    <option name="width" value="1750" />
+    <option name="height" value="993" />
+  </component>
+  <component name="ProjectId" id="1OgEgHZvTnj2xam2J7G0uzfrvNl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,70 +214,15 @@
               <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
-              <item name="data_warehouse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
-              <item name="data_warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
-              <item name="data_warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="no_match_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
-              <item name="data_warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
-              <item name="data_warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
-              <item name="data_warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
-              <item name="data_warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
-              <item name="data_warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="dwd" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;hive" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -265,13 +231,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563894442720" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data_warehouse/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -302,7 +268,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.biz">
+  <component name="RunManager" selected="Application.ActiveDays">
+    <configuration name="ActiveDays" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="active_day.ActiveDays" />
+      <module name="data_warehouse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GaoDeDic" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="data_dic.GaoDeDic" />
       <module name="data_warehouse" />
@@ -355,19 +328,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="biz" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="data_dic.biz" />
-      <module name="data_warehouse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data_dic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DataServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="data_service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.doit08.data_service.DataServiceApplication" />
@@ -377,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActiveDays" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.GaoDeDic" />
         <item itemvalue="Application.RequestDic" />
         <item itemvalue="Application.LogProcess" />
-        <item itemvalue="Application.biz" />
       </list>
     </recent_temporary>
   </component>
@@ -405,6 +365,18 @@
       <workItem from="1563934333303" duration="39054000" />
       <workItem from="1564015634195" duration="21239000" />
       <workItem from="1564102904869" duration="662000" />
+      <workItem from="1564236907923" duration="872000" />
+      <workItem from="1564279129031" duration="7346000" />
+      <workItem from="1564304136526" duration="133000" />
+      <workItem from="1564318361502" duration="2685000" />
+      <workItem from="1564330989457" duration="1702000" />
+      <workItem from="1564386248931" duration="1115000" />
+      <workItem from="1564390976640" duration="53000" />
+      <workItem from="1564391387103" duration="313000" />
+      <workItem from="1564391770635" duration="7275000" />
+      <workItem from="1564411414387" duration="7540000" />
+      <workItem from="1564454421553" duration="2948000" />
+      <workItem from="1564460788281" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1563808557077</created>
@@ -462,58 +434,54 @@
       <option name="project" value="LOCAL" />
       <updated>1563886176959</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update code">
+      <created>1564237112496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564237112496</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101070000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891067" weight="0.20241287" />
-      <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.19101876" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18364611" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.12011173" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4385475" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.23603351" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49932975" weight="0.24581006" />
-      <window_info anchor="bottom" id="Thumbnails" order="10" weight="0.17852162" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.27793297" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.2637854" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.23458445" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.2707775" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,14 +499,7 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -562,426 +523,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update code" />
     <option name="LAST_COMMIT_MESSAGE" value="update code" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/GaoDeDic.scala</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/GaoDeDic.scala</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/GaoDeDic.scala</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend_sys/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_profile/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_service/src/test/java/cn/doit08/data_service/DataServiceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/controller.java" />
-    <entry file="file://$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/controller/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/DataServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/service/AddServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/service/AddService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_service/src/main/java/cn/doit08/data_service/controller/AddController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_dic/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/data_dic/src/main/scala/Location.scala" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/test/scala/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untitled.sc" />
-    <entry file="file://$PROJECT_DIR$/data_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/BizParse.scala" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/LocationParse.scala" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_common/src/main/scala/SparkSessionUtil.scala" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/logs/2019-06-17/doit.mall.access.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="12" column="643" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="643" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/no_match_data/part-00000-a2c991ec-63ed-4e8d-b159-9b7ef2a61c27-c000.txt" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/no_match_data/part-00000-38c598db-bcb1-48a6-86fc-beebb9479116-c000.txt" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/no_match_data/part-00000-a9ab8541-8701-4a22-a218-17187129cf96-c000.txt" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/logs/2019-06-18/doit.mall.access.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96933" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/no_match_data/part-00000-96f9c604-9066-4470-a50c-148100fdffd7-c000.txt" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/no_match_data/part-00000-501d6201-eb1c-4558-bacb-0bf66dee8418-c000.txt" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/datapreprocess/LogBean.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_common/src/main/scala/sparkutils/LoggerUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/area_orgin/省市区GPS坐标数据.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="219" column="43" selection-start-line="219" selection-start-column="43" selection-end-line="219" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/biz_orgin/商圈数据.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="62" selection-start-column="1" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_process.scala" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/logs/2019-06-16/16.doit.mall.access.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="81" column="659" selection-start-line="81" selection-start-column="659" selection-end-line="81" selection-end-column="659" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/stopwords/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/stopwords/stwords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/LocalDic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#18#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_process/LogProcess.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="e#22#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_process/LogBean.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="39" />
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="38" />
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="35" />
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="37" />
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="36" />
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="40" />
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="40" />
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="40" />
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="39" />
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="36" />
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="37" />
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="40" />
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="40" />
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="39" />
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="40" />
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="39" />
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="38" />
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="38" />
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="40" />
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="38" />
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/datapreprocess/LogPre.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="e#24#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/dic/BizParse.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_common/src/main/scala/sparkutils/SparkUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/dic/LocationParse.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="e#13#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/tmp/no_match_data/part-00000-8c3d4fb1-7baf-4e03-8b51-00b9feaf954b-c000.txt" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/Test.scala" />
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/GaoDeDic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#18#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/external/RequestDic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#18#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/no_match_data/part-00000-56a90574-847f-405d-b3db-1b3b7f556279-c000.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/data/sql/schema.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/data_dic/biz.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/dwd/DwDTrafficBean.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_warehouse/src/main/scala/dwd/UrlCT.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="e#13#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.11.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>data_common</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
