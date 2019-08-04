@@ -2,132 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fbb896-881c-45a8-b8cc-9fb80112211e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/data_dragon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/CYang.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/appdata/active.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/data/appdata/app.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/active_day/ActiveDays.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/active_day/ActiveDaysU.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/app_update/AppUpdate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$3$$anonfun$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$3$$anonfun$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$3$$anonfun$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$anonfun$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$$typecreator3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/ActiveDays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/AppUpdate$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/AppUpdate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$anonfun$main$1$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$anonfun$main$1$$anonfun$apply$1$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$$typecreator2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/GaoDeDic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$$typecreator2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$$typecreator3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/LocalDic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/biz$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/biz$$typecreator2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/biz$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_dic/biz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogBean$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$1$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$6$$anonfun$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$6$$anonfun$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$3$$anonfun$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$3$$anonfun$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator11$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$$typecreator7$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/data_process/LogProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogBean$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$1$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$6$$anonfun$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$6$$anonfun$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$9$$anonfun$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$9$$anonfun$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator11$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$$typecreator7$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/datapreprocess/LogPre.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/BizParse$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/BizParse$$typecreator3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/BizParse$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/BizParse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/LocationParse$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/LocationParse$$typecreator2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/LocationParse$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dic/LocationParse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/DwDTrafficBean$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/DwDTrafficBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$2$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$getUrlCt$1$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$anonfun$getUrlCt$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$typecreator2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$$typecreator5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/dwd/UrlCT.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/external/RequestDic$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/external/RequestDic$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/classes/external/RequestDic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$$typecreator4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_warehouse/target/test-classes/WordCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/data/sql/28.广告主题ads层-广告概况报表-ads_ad_overview.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/ReadParquet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/data/graphx/graphx.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/src/main/scala/GraphxTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_common/target/classes/META-INF/data_common.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_warehouse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data_warehouse/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_warehouse/src/main/scala/app_update/AppUpdateu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/data_warehouse/src/main/scala/app_update/AppUpdateu.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_warehouse/target/classes/app_update/AppUpdateu$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_warehouse/target/classes/app_update/AppUpdateu$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_warehouse/target/classes/app_update/AppUpdateu$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/data_warehouse/target/classes/app_update/AppUpdateu$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_warehouse/target/classes/app_update/AppUpdateu$.class" beforeDir="false" afterPath="$PROJECT_DIR$/data_warehouse/target/classes/app_update/AppUpdateu$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/recommend_sys/target/" />
-    <ignored path="$PROJECT_DIR$/data_common/target/" />
-    <ignored path="$PROJECT_DIR$/user_profile/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/data_warehouse/target/" />
-    <ignored path="$PROJECT_DIR$/data_service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,11 +36,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="linux01" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="data_dragon" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -165,9 +65,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="e2200d66-b900-49c6-803f-7f1c068321ba" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -184,43 +81,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="91" />
-    <option name="y" value="21" />
-    <option name="width" value="1750" />
-    <option name="height" value="993" />
-  </component>
   <component name="ProjectId" id="1OgEgHZvTnj2xam2J7G0uzfrvNl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="data_dragon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_dragon" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;hive" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -231,19 +96,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563894442720" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\WorkPlace\data_dragon\data_warehouse\data" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.doit08.data_service.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkPlace\data_dragon\data_warehouse\data\sql" />
       <recent name="F:\WorkPlace\data_dragon\data_warehouse\data" />
       <recent name="F:\WorkPlace\data_dragon\data_warehouse\data\logs" />
       <recent name="F:\WorkPlace\data_dragon\data_warehouse\data\biz_orgin" />
@@ -252,8 +119,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="data_process" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.doit08.data_service.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WorkPlace\data_dragon\data_warehouse\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,20 +135,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ActiveDays">
-    <configuration name="ActiveDays" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="active_day.ActiveDays" />
-      <module name="data_warehouse" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GaoDeDic" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="data_dic.GaoDeDic" />
+  <component name="RunManager" selected="Application.GraphxTest">
+    <configuration name="ActiveDaysU" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="active_day.ActiveDaysU" />
       <module name="data_warehouse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data_dic.*" />
+          <option name="PATTERN" value="active_day.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogProcess" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="data_process.LogProcess" />
+    <configuration name="AppUpdate" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="app_update.AppUpdate" />
       <module name="data_warehouse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data_process.*" />
+          <option name="PATTERN" value="app_update.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestDic" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="external.RequestDic" />
+    <configuration name="AppUpdateu" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="app_update.AppUpdateu" />
       <module name="data_warehouse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="external.*" />
+          <option name="PATTERN" value="app_update.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,15 +175,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="data_dic.Test" />
+    <configuration name="GraphxTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="GraphxTest" />
+      <module name="user_profile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadParquet" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ReadParquet" />
       <module name="data_warehouse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data_dic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -337,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ActiveDays" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.GaoDeDic" />
-        <item itemvalue="Application.RequestDic" />
-        <item itemvalue="Application.LogProcess" />
+        <item itemvalue="Application.GraphxTest" />
+        <item itemvalue="Application.AppUpdateu" />
+        <item itemvalue="Application.ReadParquet" />
+        <item itemvalue="Application.AppUpdate" />
+        <item itemvalue="Application.ActiveDaysU" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +237,20 @@
       <workItem from="1564391770635" duration="7275000" />
       <workItem from="1564411414387" duration="7540000" />
       <workItem from="1564454421553" duration="2948000" />
-      <workItem from="1564460788281" duration="966000" />
+      <workItem from="1564460788281" duration="22470000" />
+      <workItem from="1564541299330" duration="1403000" />
+      <workItem from="1564581032035" duration="1615000" />
+      <workItem from="1564625978545" duration="157000" />
+      <workItem from="1564626577002" duration="156000" />
+      <workItem from="1564626755219" duration="284000" />
+      <workItem from="1564627066666" duration="35000" />
+      <workItem from="1564627143450" duration="732000" />
+      <workItem from="1564628894927" duration="2328000" />
+      <workItem from="1564670100597" duration="3267000" />
+      <workItem from="1564715306937" duration="5185000" />
+      <workItem from="1564749035842" duration="1831000" />
+      <workItem from="1564879785490" duration="5560000" />
+      <workItem from="1564917829996" duration="2885000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1563808557077</created>
@@ -441,48 +315,22 @@
       <option name="project" value="LOCAL" />
       <updated>1564237112496</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update code">
+      <created>1564461793592</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564461793592</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update code">
+      <created>1564491864272</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564491864272</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="966000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18364611" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.2637854" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -493,12 +341,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
